@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\slist_wc.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_binmode.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_bname.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_cb_dbg.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_cb_hdr.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_cb_prg.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_cb_rea.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_cb_see.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_cb_wrt.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_cfgable.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_convert.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_dirhie.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_doswin.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_easysrc.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_formparse.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_getparam.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_getpass.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_help.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_helpers.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_homedir.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_hugehelp.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_libinfo.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_main.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_metalink.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_mfiles.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_msgs.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_operate.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_operhlp.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_panykey.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_paramhlp.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_parsecfg.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_strdup.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_setopt.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_sleep.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_urlglob.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_util.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_vms.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_writeenv.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_writeout.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_xattr.c">
+      <Filter>cURL source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\strtoofft.c">
+      <Filter>cURLX source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\rawstr.c">
+      <Filter>cURLX source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\nonblock.c">
+      <Filter>cURLX source files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\warnless.c">
+      <Filter>cURLX source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\slist_wc.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_binmode.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_bname.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_cb_dbg.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_cb_hdr.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_cb_prg.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_cb_rea.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_cb_see.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_cb_wrt.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_cfgable.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_convert.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_dirhie.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_doswin.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_easysrc.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_formparse.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_getparam.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_getpass.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_help.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_helpers.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_homedir.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_hugehelp.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_libinfo.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_main.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_metalink.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_mfiles.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_msgs.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_operate.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_operhlp.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_panykey.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_paramhlp.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_parsecfg.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_sdecls.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_setopt.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_setup.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_sleep.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_strdup.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_urlglob.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_util.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_version.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_vms.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_writeenv.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_writeout.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\tool_xattr.h">
+      <Filter>cURL header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\src\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\CMakeFiles\645d5061a108a56f8d8797c67fb44ce6\tool_hugehelp.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2725C581-FBAE-3FD7-91FA-8940D25F2613}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cURLX source files">
+      <UniqueIdentifier>{8FD0D7D2-7681-37D6-8DF2-5BA13701CC3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cURL source files">
+      <UniqueIdentifier>{D1FA62C3-8CCC-3BFB-8779-46A5E0F1FB8E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cURL header files">
+      <UniqueIdentifier>{37A93FA4-852F-37D1-B6AE-F6AB241650A3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

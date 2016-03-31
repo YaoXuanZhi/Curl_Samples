@@ -1,0 +1,561 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{058A311C-A668-3017-8054-9335B59239BF}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>libcurl</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libcurl.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">libcurl_imp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libcurl.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">libcurl_imp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libcurl.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">libcurl_imp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libcurl.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">libcurl_imp</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;BUILDING_LIBCURL;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR="Debug";libcurl_EXPORTS;%(PreprocessorDefinitions);CURL_STATICLIB</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;BUILDING_LIBCURL;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR=\"Debug\";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/lib/Debug/libcurl_imp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/lib/Debug/libcurl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_LIBCURL;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR="Release";libcurl_EXPORTS;%(PreprocessorDefinitions);CURL_STATICLIB</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_LIBCURL;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR=\"Release\";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/lib/Release/libcurl_imp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/lib/Release/libcurl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_LIBCURL;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR="MinSizeRel";libcurl_EXPORTS;%(PreprocessorDefinitions);CURL_STATICLIB</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_LIBCURL;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR=\"MinSizeRel\";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/lib/MinSizeRel/libcurl_imp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/lib/MinSizeRel/libcurl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsC</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_LIBCURL;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR="RelWithDebInfo";libcurl_EXPORTS;%(PreprocessorDefinitions);CURL_STATICLIB</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;BUILDING_LIBCURL;HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_USRDLL;CMAKE_INTDIR=\"RelWithDebInfo\";libcurl_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..\include;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\..;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;ws2_32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/lib/RelWithDebInfo/libcurl_imp.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/lib/RelWithDebInfo/libcurl.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+C:\Users\John\Desktop\搭建LibCurl开发环境\cmake-3.5.0-win32-x86\bin\cmake.exe -HC:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0 -BC:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0 --check-stamp-file C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/lib/CMakeLists.txt;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeLists.txt;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl\curlbuild.h.cmake;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_config.h.cmake;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\Makefile.inc.cmake;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+C:\Users\John\Desktop\搭建LibCurl开发环境\cmake-3.5.0-win32-x86\bin\cmake.exe -HC:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0 -BC:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0 --check-stamp-file C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/lib/CMakeLists.txt;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeLists.txt;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl\curlbuild.h.cmake;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_config.h.cmake;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\Makefile.inc.cmake;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+C:\Users\John\Desktop\搭建LibCurl开发环境\cmake-3.5.0-win32-x86\bin\cmake.exe -HC:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0 -BC:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0 --check-stamp-file C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/lib/CMakeLists.txt;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeLists.txt;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl\curlbuild.h.cmake;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_config.h.cmake;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\Makefile.inc.cmake;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/lib/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+C:\Users\John\Desktop\搭建LibCurl开发环境\cmake-3.5.0-win32-x86\bin\cmake.exe -HC:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0 -BC:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0 --check-stamp-file C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/lib/CMakeLists.txt;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeLists.txt;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl\curlbuild.h.cmake;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_config.h.cmake;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\Makefile.inc.cmake;C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\arpa_telnet.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\netrc.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\file.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\timeval.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\hostip.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\progress.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\formdata.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\cookie.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\http.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\sendf.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\ftp.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\url.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\dict.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\if2ip.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\speedcheck.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\urldata.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_ldap.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\escape.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\telnet.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\getinfo.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\strequal.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_sec.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\memdebug.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\http_chunks.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_fnmatch.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\wildcard.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\fileinfo.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\ftplistparser.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\strtok.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\connect.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\llist.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\hash.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\content_encoding.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\share.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_md4.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_md5.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\http_digest.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\http_negotiate.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\inet_pton.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\amigaos.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\strtoofft.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\strerror.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\inet_ntop.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curlx.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_memory.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_setup.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\transfer.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\select.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\easyif.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\multiif.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\parsedate.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\tftp.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\sockaddr.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\splay.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\strdup.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\socks.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\ssh.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_base64.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\rawstr.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_addrinfo.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_sspi.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\slist.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\nonblock.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_memrchr.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\imap.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\pop3.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\smtp.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\pingpong.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\rtsp.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_threads.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\warnless.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_hmac.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_rtmp.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_gethostname.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\gopher.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\http_proxy.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\non-ascii.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\asyn.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_ntlm.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_gssapi.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_ntlm_wb.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_ntlm_core.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_ntlm_msgs.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_sasl.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_multibyte.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\hostcheck.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\conncache.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_setup_once.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\multihandle.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\setup-vms.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\pipeline.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\dotdot.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\x509asn1.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\http2.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\sigpipe.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\smb.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_endian.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_des.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_printf.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\openssl.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\vtls.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\gtls.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\nssg.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\polarssl.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\polarssl_threadlock.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\axtls.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\cyassl.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\schannel.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\darwinssl.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\gskit.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\mbedtls.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_config.h" />
+    <ClInclude Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\include\curl\curlbuild.h" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\file.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\timeval.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\base64.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\hostip.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\progress.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\formdata.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\cookie.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\http.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\sendf.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\ftp.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\url.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\dict.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\if2ip.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\speedcheck.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\ldap.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\version.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\getenv.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\escape.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\mprintf.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\telnet.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\netrc.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\getinfo.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\transfer.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\strequal.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\easy.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\security.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_fnmatch.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\fileinfo.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\ftplistparser.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\wildcard.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\krb5.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\memdebug.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\http_chunks.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\strtok.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\connect.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\llist.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\hash.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\multi.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\content_encoding.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\share.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\http_digest.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\md4.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\md5.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\http_negotiate.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\inet_pton.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\strtoofft.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\strerror.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\amigaos.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\hostasyn.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\hostip4.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\hostip6.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\hostsyn.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\inet_ntop.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\parsedate.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\select.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\tftp.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\splay.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\strdup.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\socks.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\ssh.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\rawstr.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_addrinfo.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\socks_gssapi.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\socks_sspi.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_sspi.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\slist.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\nonblock.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_memrchr.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\imap.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\pop3.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\smtp.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\pingpong.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\rtsp.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_threads.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\warnless.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\hmac.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_rtmp.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\openldap.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_gethostname.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\gopher.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\idn_win32.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\http_negotiate_sspi.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\http_proxy.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\non-ascii.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\asyn-ares.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\asyn-thread.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_gssapi.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_ntlm.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_ntlm_wb.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_ntlm_core.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_ntlm_msgs.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_sasl.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_multibyte.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\hostcheck.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\conncache.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\pipeline.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\dotdot.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\x509asn1.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\http2.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_sasl_sspi.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\smb.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_sasl_gssapi.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_endian.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\curl_des.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\openssl.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\gtls.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\vtls.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\nss.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\polarssl.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\polarssl_threadlock.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\axtls.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\cyassl.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\schannel.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\darwinssl.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\gskit.c" />
+    <ClCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\vtls\mbedtls.c" />
+    <ResourceCompile Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\lib\libcurl.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/John/Desktop/搭建LibCurl开发环境/curl-7.48.0/ZERO_CHECK.vcxproj">
+      <Project>5FA2E270-03FB-3B30-A498-B2858765B587</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

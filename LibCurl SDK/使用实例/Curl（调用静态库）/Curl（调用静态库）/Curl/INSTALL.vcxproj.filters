@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\John\Desktop\搭建LibCurl开发环境\curl-7.48.0\CMakeFiles\2e9f8f4799e5972a4fd6ee0974c809d2\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2725C581-FBAE-3FD7-91FA-8940D25F2613}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

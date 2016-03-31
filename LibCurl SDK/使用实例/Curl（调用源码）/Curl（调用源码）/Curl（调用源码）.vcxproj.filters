@@ -1,0 +1,533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="libcurl">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="libcurl\include">
+      <UniqueIdentifier>{039beccf-30cc-488f-a928-a055f97f83df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libcurl\lib">
+      <UniqueIdentifier>{4a58d683-4958-4012-b057-09751acf544c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="源码库\include\curl\curlbuild.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="源码库\include\curl\curlver.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="源码库\include\curl\curl.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="源码库\include\curl\curlrules.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="源码库\include\curl\easy.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="源码库\include\curl\mprintf.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="源码库\include\curl\multi.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="源码库\include\curl\stdcheaders.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="源码库\include\curl\typecheck-gcc.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="源码库\lib\amigaos.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\asyn-ares.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\asyn-thread.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\vtls\axtls.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\base64.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\conncache.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\connect.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\content_encoding.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\cookie.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_addrinfo.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_des.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_endian.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_fnmatch.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_gethostname.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_gssapi.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_memrchr.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_multibyte.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_ntlm.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_ntlm_core.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_ntlm_msgs.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_ntlm_wb.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_rtmp.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_sasl.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_sasl_gssapi.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_sasl_sspi.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_sspi.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\curl_threads.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\vtls\cyassl.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\vtls\darwinssl.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\dict.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\dotdot.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\easy.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\escape.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\file.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\fileinfo.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\formdata.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\ftp.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\ftplistparser.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\getenv.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\getinfo.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\gopher.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\vtls\gskit.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\vtls\gtls.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\hash.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\hmac.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\hostasyn.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\hostcheck.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\hostip.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\hostip4.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\hostip6.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\hostsyn.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\http.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\http_chunks.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\http_digest.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\http_negotiate.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\http_negotiate_sspi.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\http_proxy.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\http2.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\idn_win32.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\if2ip.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\imap.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\inet_pton.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\krb5.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\ldap.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\llist.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\vtls\mbedtls.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\md5.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\memdebug.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\mprintf.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\multi.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\netrc.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\non-ascii.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\nonblock.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\vtls\nss.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\nwlib.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\nwos.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\openldap.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\vtls\openssl.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\parsedate.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\pingpong.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\pipeline.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\vtls\polarssl.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\vtls\polarssl_threadlock.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\pop3.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\progress.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\rawstr.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\rtsp.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\vtls\schannel.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\select.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\sendf.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\share.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\slist.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\smb.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\smtp.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\socks.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\socks_gssapi.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\socks_sspi.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\speedcheck.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\splay.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\ssh.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\strdup.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\strequal.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\strerror.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\strtok.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\strtoofft.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\telnet.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\tftp.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\timeval.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\transfer.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\url.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\version.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\vtls\vtls.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\warnless.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\wildcard.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\x509asn1.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\inet_ntop.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\md4.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="源码库\lib\security.c">
+      <Filter>libcurl\lib</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_hugehelp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\slist_wc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_binmode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_bname.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_cb_dbg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_cb_hdr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_cb_prg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_cb_rea.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_cb_see.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_cb_wrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_cfgable.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_convert.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_dirhie.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_doswin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_easysrc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_formparse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_getparam.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_getpass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_help.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_helpers.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_homedir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_libinfo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_metalink.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_mfiles.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_msgs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_operate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_operhlp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_panykey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_paramhlp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_parsecfg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_setopt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_sleep.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_strdup.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_urlglob.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_vms.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_writeenv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_writeout.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_xattr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="源码库\lib\curl_config.h.cmake">
+      <Filter>libcurl\lib</Filter>
+    </None>
+  </ItemGroup>
+</Project>

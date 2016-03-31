@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A91C4754-CC0D-4C3E-A142-F0E482CD3B3C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Curl（调用源码）</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions);HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CURL_STATICLIB</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>源码库\include;源码库\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;ws2_32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions);HAVE_CONFIG_H;_WIN32_WINNT=0x0501;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;CURL_STATICLIB</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>源码库\include;源码库\lib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;winmm.lib;ws2_32.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="源码库\include\curl\curl.h" />
+    <ClInclude Include="源码库\include\curl\curlbuild.h" />
+    <ClInclude Include="源码库\include\curl\curlrules.h" />
+    <ClInclude Include="源码库\include\curl\curlver.h" />
+    <ClInclude Include="源码库\include\curl\easy.h" />
+    <ClInclude Include="源码库\include\curl\mprintf.h" />
+    <ClInclude Include="源码库\include\curl\multi.h" />
+    <ClInclude Include="源码库\include\curl\stdcheaders.h" />
+    <ClInclude Include="源码库\include\curl\typecheck-gcc.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Curl\slist_wc.c" />
+    <ClCompile Include="Curl\tool_binmode.c" />
+    <ClCompile Include="Curl\tool_bname.c" />
+    <ClCompile Include="Curl\tool_cb_dbg.c" />
+    <ClCompile Include="Curl\tool_cb_hdr.c" />
+    <ClCompile Include="Curl\tool_cb_prg.c" />
+    <ClCompile Include="Curl\tool_cb_rea.c" />
+    <ClCompile Include="Curl\tool_cb_see.c" />
+    <ClCompile Include="Curl\tool_cb_wrt.c" />
+    <ClCompile Include="Curl\tool_cfgable.c" />
+    <ClCompile Include="Curl\tool_convert.c" />
+    <ClCompile Include="Curl\tool_dirhie.c" />
+    <ClCompile Include="Curl\tool_doswin.c" />
+    <ClCompile Include="Curl\tool_easysrc.c" />
+    <ClCompile Include="Curl\tool_formparse.c" />
+    <ClCompile Include="Curl\tool_getparam.c" />
+    <ClCompile Include="Curl\tool_getpass.c" />
+    <ClCompile Include="Curl\tool_help.c" />
+    <ClCompile Include="Curl\tool_helpers.c" />
+    <ClCompile Include="Curl\tool_homedir.c" />
+    <ClCompile Include="Curl\tool_hugehelp.c" />
+    <ClCompile Include="Curl\tool_libinfo.c" />
+    <ClCompile Include="Curl\tool_main.c" />
+    <ClCompile Include="Curl\tool_metalink.c" />
+    <ClCompile Include="Curl\tool_mfiles.c" />
+    <ClCompile Include="Curl\tool_msgs.c" />
+    <ClCompile Include="Curl\tool_operate.c" />
+    <ClCompile Include="Curl\tool_operhlp.c" />
+    <ClCompile Include="Curl\tool_panykey.c" />
+    <ClCompile Include="Curl\tool_paramhlp.c" />
+    <ClCompile Include="Curl\tool_parsecfg.c" />
+    <ClCompile Include="Curl\tool_setopt.c" />
+    <ClCompile Include="Curl\tool_sleep.c" />
+    <ClCompile Include="Curl\tool_strdup.c" />
+    <ClCompile Include="Curl\tool_urlglob.c" />
+    <ClCompile Include="Curl\tool_util.c" />
+    <ClCompile Include="Curl\tool_vms.c" />
+    <ClCompile Include="Curl\tool_writeenv.c" />
+    <ClCompile Include="Curl\tool_writeout.c" />
+    <ClCompile Include="Curl\tool_xattr.c" />
+    <ClCompile Include="源码库\lib\amigaos.c" />
+    <ClCompile Include="源码库\lib\asyn-ares.c" />
+    <ClCompile Include="源码库\lib\asyn-thread.c" />
+    <ClCompile Include="源码库\lib\base64.c" />
+    <ClCompile Include="源码库\lib\conncache.c" />
+    <ClCompile Include="源码库\lib\connect.c" />
+    <ClCompile Include="源码库\lib\content_encoding.c" />
+    <ClCompile Include="源码库\lib\cookie.c" />
+    <ClCompile Include="源码库\lib\curl_addrinfo.c" />
+    <ClCompile Include="源码库\lib\curl_des.c" />
+    <ClCompile Include="源码库\lib\curl_endian.c" />
+    <ClCompile Include="源码库\lib\curl_fnmatch.c" />
+    <ClCompile Include="源码库\lib\curl_gethostname.c" />
+    <ClCompile Include="源码库\lib\curl_gssapi.c" />
+    <ClCompile Include="源码库\lib\curl_memrchr.c" />
+    <ClCompile Include="源码库\lib\curl_multibyte.c" />
+    <ClCompile Include="源码库\lib\curl_ntlm.c" />
+    <ClCompile Include="源码库\lib\curl_ntlm_core.c" />
+    <ClCompile Include="源码库\lib\curl_ntlm_msgs.c" />
+    <ClCompile Include="源码库\lib\curl_ntlm_wb.c" />
+    <ClCompile Include="源码库\lib\curl_rtmp.c" />
+    <ClCompile Include="源码库\lib\curl_sasl.c" />
+    <ClCompile Include="源码库\lib\curl_sasl_gssapi.c" />
+    <ClCompile Include="源码库\lib\curl_sasl_sspi.c" />
+    <ClCompile Include="源码库\lib\curl_sspi.c" />
+    <ClCompile Include="源码库\lib\curl_threads.c" />
+    <ClCompile Include="源码库\lib\dict.c" />
+    <ClCompile Include="源码库\lib\dotdot.c" />
+    <ClCompile Include="源码库\lib\easy.c" />
+    <ClCompile Include="源码库\lib\escape.c" />
+    <ClCompile Include="源码库\lib\file.c" />
+    <ClCompile Include="源码库\lib\fileinfo.c" />
+    <ClCompile Include="源码库\lib\formdata.c" />
+    <ClCompile Include="源码库\lib\ftp.c" />
+    <ClCompile Include="源码库\lib\ftplistparser.c" />
+    <ClCompile Include="源码库\lib\getenv.c" />
+    <ClCompile Include="源码库\lib\getinfo.c" />
+    <ClCompile Include="源码库\lib\gopher.c" />
+    <ClCompile Include="源码库\lib\hash.c" />
+    <ClCompile Include="源码库\lib\hmac.c" />
+    <ClCompile Include="源码库\lib\hostasyn.c" />
+    <ClCompile Include="源码库\lib\hostcheck.c" />
+    <ClCompile Include="源码库\lib\hostip.c" />
+    <ClCompile Include="源码库\lib\hostip4.c" />
+    <ClCompile Include="源码库\lib\hostip6.c" />
+    <ClCompile Include="源码库\lib\hostsyn.c" />
+    <ClCompile Include="源码库\lib\http.c" />
+    <ClCompile Include="源码库\lib\http2.c" />
+    <ClCompile Include="源码库\lib\http_chunks.c" />
+    <ClCompile Include="源码库\lib\http_digest.c" />
+    <ClCompile Include="源码库\lib\http_negotiate.c" />
+    <ClCompile Include="源码库\lib\http_negotiate_sspi.c" />
+    <ClCompile Include="源码库\lib\http_proxy.c" />
+    <ClCompile Include="源码库\lib\idn_win32.c" />
+    <ClCompile Include="源码库\lib\if2ip.c" />
+    <ClCompile Include="源码库\lib\imap.c" />
+    <ClCompile Include="源码库\lib\inet_ntop.c" />
+    <ClCompile Include="源码库\lib\inet_pton.c" />
+    <ClCompile Include="源码库\lib\krb5.c" />
+    <ClCompile Include="源码库\lib\ldap.c" />
+    <ClCompile Include="源码库\lib\llist.c" />
+    <ClCompile Include="源码库\lib\md4.c" />
+    <ClCompile Include="源码库\lib\md5.c" />
+    <ClCompile Include="源码库\lib\memdebug.c" />
+    <ClCompile Include="源码库\lib\mprintf.c" />
+    <ClCompile Include="源码库\lib\multi.c" />
+    <ClCompile Include="源码库\lib\netrc.c" />
+    <ClCompile Include="源码库\lib\non-ascii.c" />
+    <ClCompile Include="源码库\lib\nonblock.c" />
+    <ClCompile Include="源码库\lib\nwlib.c" />
+    <ClCompile Include="源码库\lib\nwos.c" />
+    <ClCompile Include="源码库\lib\openldap.c" />
+    <ClCompile Include="源码库\lib\parsedate.c" />
+    <ClCompile Include="源码库\lib\pingpong.c" />
+    <ClCompile Include="源码库\lib\pipeline.c" />
+    <ClCompile Include="源码库\lib\pop3.c" />
+    <ClCompile Include="源码库\lib\progress.c" />
+    <ClCompile Include="源码库\lib\rawstr.c" />
+    <ClCompile Include="源码库\lib\rtsp.c" />
+    <ClCompile Include="源码库\lib\security.c" />
+    <ClCompile Include="源码库\lib\select.c" />
+    <ClCompile Include="源码库\lib\sendf.c" />
+    <ClCompile Include="源码库\lib\share.c" />
+    <ClCompile Include="源码库\lib\slist.c" />
+    <ClCompile Include="源码库\lib\smb.c" />
+    <ClCompile Include="源码库\lib\smtp.c" />
+    <ClCompile Include="源码库\lib\socks.c" />
+    <ClCompile Include="源码库\lib\socks_gssapi.c" />
+    <ClCompile Include="源码库\lib\socks_sspi.c" />
+    <ClCompile Include="源码库\lib\speedcheck.c" />
+    <ClCompile Include="源码库\lib\splay.c" />
+    <ClCompile Include="源码库\lib\ssh.c" />
+    <ClCompile Include="源码库\lib\strdup.c" />
+    <ClCompile Include="源码库\lib\strequal.c" />
+    <ClCompile Include="源码库\lib\strerror.c" />
+    <ClCompile Include="源码库\lib\strtok.c" />
+    <ClCompile Include="源码库\lib\strtoofft.c" />
+    <ClCompile Include="源码库\lib\telnet.c" />
+    <ClCompile Include="源码库\lib\tftp.c" />
+    <ClCompile Include="源码库\lib\timeval.c" />
+    <ClCompile Include="源码库\lib\transfer.c" />
+    <ClCompile Include="源码库\lib\url.c" />
+    <ClCompile Include="源码库\lib\version.c" />
+    <ClCompile Include="源码库\lib\vtls\axtls.c" />
+    <ClCompile Include="源码库\lib\vtls\cyassl.c" />
+    <ClCompile Include="源码库\lib\vtls\darwinssl.c" />
+    <ClCompile Include="源码库\lib\vtls\gskit.c" />
+    <ClCompile Include="源码库\lib\vtls\gtls.c" />
+    <ClCompile Include="源码库\lib\vtls\mbedtls.c" />
+    <ClCompile Include="源码库\lib\vtls\nss.c" />
+    <ClCompile Include="源码库\lib\vtls\openssl.c" />
+    <ClCompile Include="源码库\lib\vtls\polarssl.c" />
+    <ClCompile Include="源码库\lib\vtls\polarssl_threadlock.c" />
+    <ClCompile Include="源码库\lib\vtls\schannel.c" />
+    <ClCompile Include="源码库\lib\vtls\vtls.c" />
+    <ClCompile Include="源码库\lib\warnless.c" />
+    <ClCompile Include="源码库\lib\wildcard.c" />
+    <ClCompile Include="源码库\lib\x509asn1.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="源码库\lib\curl_config.h.cmake" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

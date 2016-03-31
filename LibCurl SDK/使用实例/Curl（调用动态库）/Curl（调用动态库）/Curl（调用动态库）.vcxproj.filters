@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="libcurl">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="libcurl\include">
+      <UniqueIdentifier>{75fbc8ba-c473-4e5e-8f91-75edbed0a124}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Curl\tool_hugehelp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\slist_wc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_binmode.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_bname.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_cb_dbg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_cb_hdr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_cb_prg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_cb_rea.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_cb_see.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_cb_wrt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_cfgable.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_convert.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_dirhie.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_doswin.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_easysrc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_formparse.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_getparam.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_getpass.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_help.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_helpers.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_homedir.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_libinfo.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_main.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_metalink.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_mfiles.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_msgs.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_operate.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_operhlp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_panykey.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_paramhlp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_parsecfg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_setopt.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_sleep.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_strdup.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_urlglob.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_vms.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_writeenv.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_writeout.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Curl\tool_xattr.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\nonblock.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\rawstr.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\strtoofft.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="lib\warnless.c">
+      <Filter>资源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="动态库\include\curl\curlbuild.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="动态库\include\curl\curlver.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="动态库\include\curl\curl.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="动态库\include\curl\curlrules.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="动态库\include\curl\easy.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="动态库\include\curl\mprintf.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="动态库\include\curl\multi.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="动态库\include\curl\stdcheaders.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+    <ClInclude Include="动态库\include\curl\typecheck-gcc.h">
+      <Filter>libcurl\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
